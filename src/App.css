@@ -1,29 +1,11 @@
-.App {
-  text-align: center;
-  margin: 0;
-  padding: 0;
-}
-.block{
-  border:1px solid black;
-  width: 190px;
-  height: 150px;
+.ip{
+  width: 500px;
+  height: 100%;
+  margin:50px auto;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 30px;
-  cursor: pointer ;
-}
-.wrapper{
-  display: flex;
-  flex-wrap: wrap;
-  width: 580px;
-}
-.blue{
-  background: blue;
-}
-.green{
-  background: green;
-}
-.yellow{
-  background: yellow;
+  border: 2px solid #ccc;
+  font-size: 25px;
 }
